@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carousel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    .carousel-item-active{
+        background-color:#524f4e;
+        height:32rem;
+        color: white;
+        position: relative;
+    }
+    .container{
+        position: absolute;
+        bottom: 0;
+        left:0;
+        right:0;
+        padding-bottom:50px;
+    }
+</style>
+</head>
+<body>
+    <!-- Global attributes -->
+    <div id="mycarousel" class="carousel-slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#mycarousel" data-slide-to="0"class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1"class="active"></li>
+        </ol>
+        <!-- Inner class -->
+    <div class="carousel-inner">
+        <!-- active carousel -->
+    <div class="carousel-item-active">
+        <div class="container">
+            <h1>Example 1st Slider</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, temporibus.</p>
+            <a href="#" class="btn btn-lg btn-primary">Sign up</a>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="container">
+            <h1>Example 1st Slider</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, temporibus.</p>
+            <a href="#" class="btn btn-lg btn-primary">Sign up</a>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

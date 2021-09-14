@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="..//css/bootstrap-icons.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    .card-img-top {
+      height: 150px;
+      width: 25%;
+    }
+
+    .list-group .list-group-item {
+      margin: 1px;
+      color: black;
+    }
+
+    .page-link {
+      background-color: #8b8b8b;
+      color: white;
+      margin: 10px;
+      border-radius: 20px;
+    }
+
+    .slider {
+      width: 110px;
+      height: 500px;
+    }
+
+    .navbar-nav .nav-item {
+      margin: 0px 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar and collapse -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a href="#" class="nav-brand text-light"><i class="bi bi-shop"></i>&nbsp LOGO</a>
+    <button data-bs-toggle="collapse" data-bs-target="#menu" type="button" class="btn btn-primary navbar-toggler">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="menu">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="Finalproject.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <!-- dropdown -->
+        <li class="nav-item dropdown">
+          <a href="services.html" class="dropdown-toggle nav-link" type="button" data-toggle="dropdown">Services</a>
+          <!-- Nested list -->
+          <ul class="dropdown-menu bg-dark">
+            <li class="border p-3"><a href="delivery.html" target="_blank" class="text-light">Free Delivery</a></li>
+            <li class="border p-3"><a href="easy.html" target="_blank" class="text-light">Easy Exchange</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a href="blog.html" class="nav-link"class="btn btn-primary" >blog</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link" target="_blank">Contacts</a></li>
+      </ul>
+    </div>
+    <!-- RIGHT SIDE MENU -->
+    
+    <!-- RIGHT SIDE MENU -->
+    <!-- MODAL FOR LOG IN -->
+    
+    <!-- MODAL FOR LOG IN -->
+  </nav>
+  <!-- Navbar -->
+  <div class="container-fluid maincon px-5">
+    <!-- Main Row -->
+    <div class="row">
+      <!-- Left column -->
+      <div class="col-lg-2 ">
+        <nav>
+          <ul class="list-group">
+            <li class="list-group-item "> <i class="bi bi-arrow-down-circle-fill text-primary"></i>
+              &nbspElectronics<span class="badge bg-primary rounded-pill text-light ml-3">5</span></li>
+            <li class="list-group-item"><i class="bi bi-arrow-down-circle-fill text-primary"></i>&nbsp Appliances</li>
+            <li class="list-group-item"><i class="bi bi-arrow-down-circle-fill text-primary"></i> &nbspClothing</li>
+            <li class="list-group-item"><i class="bi bi-arrow-down-circle-fill text-primary"></i>&nbsp Men's</li>
+            <li class="list-group-item"><i class="bi bi-arrow-down-circle-fill text-primary"></i>&nbsp Women's</li>
+            <li class="list-group-item"><i class="bi bi-arrow-down-circle-fill text-primary"></i>&nbsp Kids</li>
+            <li class="list-group-item"><i class="bi bi-arrow-down-circle-fill text-primary"></i>&nbsp Mobiles</li>
+            <li class="list-group-item"><i class="bi bi-arrow-down-circle-fill text-primary"></i>&nbsp Brands</li>
+            <li class="list-group-item"><i class="bi bi-arrow-down-circle-fill text-primary"></i>&nbsp Shoes</li>
+            <li class="list-group-item"><i class="bi bi-arrow-down-circle-fill text-primary"></i>&nbsp Sliders</li>
+            <li class="list-group-item"><i class="bi bi-arrow-down-circle-fill text-primary"></i>&nbsp Electronics</li>
+            <li class="list-group-item"><i class="bi bi-arrow-down-circle-fill text-primary"></i>&nbsp Appliances</li>
+            <li class="list-group-item"><i class="bi bi-arrow-down-circle-fill text-primary"></i>&nbsp Clothing</li>
+
+          </ul>
+        </nav>
+      </div>
+      <!-- Right column -->
+      <div class="col-lg-10">
+        <!-- Sliders -->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="slider3.jpg" class="w-100" height="500px">
+            </div>
+            <div class="carousel-item">
+              <img src="slider2.jpg" alt="Chicago" class="w-100" height="500px">
+            </div>
+            <div class="carousel-item">
+              <img src="slider1.jpg" alt="New York" class="w-100" height="500px">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        <!-- Slider -->
+        <!-- Container -->
+        <div class="container-fluid p-3 ">
+          <!-- Row -->
+          <div class="row justify-content-start">
+            <!-- Column -->
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <!-- Card -->
+              <figure class="card bg-dark">
+                <!-- Image -->
+                <img src="image.jpeg" class="card-img-top mx-auto mt-3" />
+                <!-- Card-body -->
+                <div class="card-body text-center my-2">
+                  <figcaption class="card-title h6 my-2 text-white">POCO C3 mobile
+                    <sup class="h5"><span class="badge bg-primary">New</span></sup>
+                  </figcaption>
+                  <figcaption class="card-text my-2 text-white">
+                    <span class="h5">&#8377;7,999</span>&nbsp;&nbsp;
+                    <span><s>&#8377;8,999</s></span>
+                  </figcaption>
+                  <!-- Button -->
+                  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                    Buy now
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">PRODUCT DESCRIPTION</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body text-dark">
+                          <div class="row w-100">
+                            <div class="col-lg-6 w-50 border pt-2">
+                              <img src="image1.jpeg" alt="image" width="50">
+                            </div>
+                            <div class="col-lg-6 text-dark text-center pt-2 border">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione repellendus
+                              eius sed nostrum rerum numquam reprehenderit molestiae soluta veritatis tempore.<br>
+
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                </div>
+              </figure>
+
+            </div>
+            <!-- 2nd col 1st row -->
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <!-- Card -->
+              <figure class="card bg-dark">
+                <!-- Image -->
+                <img src="image1.jpeg" class="card-img-top img-thumbnail mx-auto mt-3" />
+                <!-- Card-body -->
+                <div class="card-body text-center my-2">
+                  <figcaption class="card-title h6 my-2 text-white">POCO C3 mobile</figcaption>
+                  <figcaption class="card-text my-2 text-white">
+                    <span class="h5">&#8377;7,999</span>&nbsp;&nbsp;
+                    <span><s>&#8377;8,999</s></span>
+                  </figcaption>
+                  <!-- Button -->
+                  <button class="btn btn-primary">Buy now</button>
+                </div>
+              </figure>
+
+            </div>
+            <!-- 3rdcol row1 -->
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <!-- Card -->
+              <figure class="card bg-dark">
+                <!-- Image -->
+                <img src="image2.jpeg" class="card-img-top img-thumbnail mx-auto mt-3" />
+                <!-- Card-body -->
+                <div class="card-body text-center my-2">
+                  <figcaption class="card-title h6 my-2 text-white">POCO C3 mobile</figcaption>
+                  <figcaption class="card-text my-2 text-white">
+                    <span class="h5">&#8377;7,999</span>&nbsp;&nbsp;
+                    <span><s>&#8377;8,999</s></span>
+                  </figcaption>
+                  <!-- Button -->
+                  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                    Buy now
+                  </button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Product-Description</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body text-dark">
+                          <div class="row w-100">
+                            <div class="col-lg-6 w-50 border pt-2">
+                              <img src="image1.jpeg" alt="image" width="50">
+                            </div>
+                            <div class="col-lg-6 text-dark text-center pt-2 border">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione repellendus
+                              eius sed nostrum rerum numquam reprehenderit molestiae soluta veritatis tempore.<br>
+
+
+                            </div>
+                          </div>
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal -->
+                </div>
+              </figure>
+
+            </div>
+            <!-- 4th col 1st row -->
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <!-- Card -->
+              <figure class="card bg-dark">
+                <!-- Image -->
+                <img src="image3.jpeg" class="card-img-top img-thumbnail mx-auto mt-3" />
+                <!-- Card-body -->
+                <div class="card-body text-center my-2">
+                  <figcaption class="card-title h6 my-2 text-white">POCO C3 mobile</figcaption>
+                  <figcaption class="card-text my-2 text-white">
+                    <span class="h5">&#8377;7,999</span>&nbsp;&nbsp;
+                    <span><s>&#8377;8,999</s></span>
+                  </figcaption>
+                  <!-- Button -->
+                  <button class="btn btn-primary">Buy now</button>
+                </div>
+              </figure>
+
+            </div>
+          </div>
+          <!-- 2nd row -->
+          <div class="row justify-content-start">
+            <!-- Column -->
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <!-- Card -->
+              <figure class="card bg-dark">
+                <!-- Image -->
+                <img src="image.jpeg" class="card-img-top img-thumbnail mx-auto mt-3" />
+                <!-- Card-body -->
+                <div class="card-body text-center my-2">
+                  <figcaption class="card-title h6 my-2 text-white">POCO C3 mobile</figcaption>
+                  <figcaption class="card-text my-2 text-white">
+                    <span class="h5">&#8377;7,999</span>&nbsp;&nbsp;
+                    <span><s>&#8377;8,999</s></span>
+                  </figcaption>
+                  <!-- Button -->
+                  <button class="btn btn-success">Buy now</button>
+                </div>
+              </figure>
+
+            </div>
+            <!-- 2nd col 2nd row -->
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <!-- Card -->
+              <figure class="card bg-dark">
+                <!-- Image -->
+                <img src="image.jpeg" class="card-img-top img-thumbnail mx-auto mt-3" />
+                <!-- Card-body -->
+                <div class="card-body text-center my-2">
+                  <figcaption class="card-title h6 my-2 text-white">POCO C3 mobile</figcaption>
+                  <figcaption class="card-text my-2 text-white">
+                    <span class="h5">&#8377;7,999</span>&nbsp;&nbsp;
+                    <span><s>&#8377;8,999</s></span>
+                  </figcaption>
+                  <!-- Button -->
+                  <button class="btn btn-primary">Buy now</button>
+                </div>
+              </figure>
+
+            </div>
+            <!-- 3rdcol 2nd -->
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <!-- Card -->
+              <figure class="card bg-dark">
+                <!-- Image -->
+                <img src="image.jpeg" class="card-img-top img-thumbnail mx-auto mt-3" />
+                <!-- Card-body -->
+                <div class="card-body text-center my-2">
+                  <figcaption class="card-title h6 my-2 text-white">POCO C3 mobile</figcaption>
+                  <figcaption class="card-text my-2 text-white">
+                    <span class="h5">&#8377;7,999</span>&nbsp;&nbsp;
+                    <span><s>&#8377;8,999</s></span>
+                  </figcaption>
+                  <!-- Button -->
+                  <button class="btn btn-success">Buy now</button>
+                </div>
+              </figure>
+
+            </div>
+            <!-- 4th col 2nd row -->
+            <div class="col-lg-3 col-md-3 col-sm-6">
+              <!-- Card -->
+              <figure class="card bg-dark">
+                <!-- Image -->
+                <img src="image.jpeg" class="card-img-top img-thumbnail mx-auto mt-3" />
+                <!-- Card-body -->
+                <div class="card-body text-center my-2">
+                  <figcaption class="card-title h6 my-2 text-white">POCO C3 mobile</figcaption>
+                  <figcaption class="card-text my-2 text-white">
+                    <span class="h5">&#8377;7,999</span>&nbsp;&nbsp;
+                    <span><s>&#8377;8,999</s></span>
+                  </figcaption>
+                  <!-- Button -->
+                  <button class="btn btn-primary">Buy now</button>
+                </div>
+              </figure>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- pagination -->
+  <nav mt--4>
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link" href="">1</a></li>
+      <li class="page-item"><a class="page-link" href="">2</a></li>
+      <li class="page-item"><a class="page-link" href="">3</a></li>
+      <li class="page-item"><a class="page-link" href="">4</a></li>
+      <li class="page-item"><a class="page-link" href="">5</a></li>
+      <li class="page-item"><a class="page-link" href="">6</a></li>
+      <li class="page-item"><a class="page-link" href="">7</a></li>
+      <li class="page-item"><a class="page-link" href="">8</a></li>
+      <li class="page-item"><a class="page-link" href="">9</a></li>
+    </ul>
+  </nav>
+  <!-- pagination -->
+  <!--Some of this HTML is directly from Pavilion.  You can change it to whatever you want if you want to mimic this design.-->
+  <footer class="flex-rw">
+
+    <ul class="footer-list-top">
+      <li>
+        <h4 class="footer-list-header">About Pavilion</h4>
+      </li>
+      <li><a href='/shop/about-mission' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW
+          US</a></li>
+      <li><a href='/promos.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">PROMOS</a></li>
+      <li><a href='/retailers/new-retailers.html' class="generic-anchor footer-list-anchor"
+          itemprop="significantLink">BECOME A RETAILER</a></li>
+
+      <li><a href='/job-openings.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">JOB
+          OPENINGS</a></li>
+
+      <li><a href='/shop/about-show-schedule' class="generic-anchor footer-list-anchor"
+          itemprop="significantLink">EVENTS</a></li>
+    </ul>
+    <ul class="footer-list-top">
+      <li>
+        <h4 class="footer-list-header">The Gift Selection</h4>
+      </li>
+
+
+      <li><a href='/Angels/cat/id/70' class="generic-anchor footer-list-anchor">ANGEL FIGURINES</a></li>
+      <li><a href='/Home-Decor/cat/id/64' class="generic-anchor footer-list-anchor">HOME DECOR</a></li>
+      <li><a href='/Mugs/cat/id/32' class="generic-anchor footer-list-anchor">MUGS</a></li>
+      <li><a href='/Pet-Lover/cat/id/108' class="generic-anchor footer-list-anchor">PET LOVER</a></li>
+      <li><a href='/Ladies-Accessories/cat/id/117' class="generic-anchor footer-list-anchor" target="_blank">HANDBAGS &
+          JEWELRY</a></li>
+    </ul>
+    <ul class="footer-list-top">
+      <li id='help'>
+        <h4 class="footer-list-header">Please Help Me</h4>
+      </li>
+      <li><a href='/shop/about-contact' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a>
+      </li>
+      <li><a href='/faq.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
+      <li id='find-a-store'><a href='/shop/store-locator' class="generic-anchor footer-list-anchor"
+          itemprop="significantLink">STORE LOCATOR</a></li>
+      <li id='user-registration'><a href='/shop/user-registration?URL=' class="generic-anchor footer-list-anchor"
+          itemprop="significantLink">NEW USERS</a></li>
+      <li id='order-tracking'><a href='/shop/order-status' itemprop="significantLink"
+          class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
+    </ul>
+    <section class="footer-social-section flex-rw">
+      <span class="footer-social-overlap footer-social-connect">
+        CONNECT <span class="footer-social-small">with</span> US
+      </span>
+      <span class="footer-social-overlap footer-social-icons-wrapper">
+        <a href="https://www.pinterest.com/paviliongift/" class="generic-anchor" target="_blank" title="Pinterest"
+          itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
+        <a href="https://www.facebook.com/paviliongift" class="generic-anchor" target="_blank" title="Facebook"
+          itemprop="significantLink"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/PavilionGiftCo" class="generic-anchor" target="_blank" title="Twitter"
+          itemprop="significantLink"><i class="fa fa-twitter"></i></a>
+        <a href="http://instagram.com/paviliongiftcompany" class="generic-anchor" target="_blank" title="Instagram"
+          itemprop="significantLink"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCYgUODvd0qXbu_LkUWpTVEg" class="generic-anchor" target="_blank"
+          title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
+        <a href="https://plus.google.com/+Paviliongift/posts" class="generic-anchor" target="_blank" title="Google Plus"
+          itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
+      </span>
+    </section>
+    <section class="footer-bottom-section flex-rw">
+      <div class="footer-bottom-wrapper">
+        <i class="fa fa-copyright" role="copyright">
+
+        </i> 2019 Pavilion in <address class="footer-address" role="company address">Bergen, NY</address><span
+          class="footer-bottom-rights"> - All Rights Reserved - </span>
+      </div>
+      <div class="footer-bottom-wrapper">
+        <a href="/terms-of-use.html" class="generic-anchor" rel="nofollow">Terms</a> | <a href="/privacy-policy.html"
+          class="generic-anchor" rel="nofollow">Privacy</a>
+      </div>
+    </section>
+  </footer>
+</body>
+
+</html>
